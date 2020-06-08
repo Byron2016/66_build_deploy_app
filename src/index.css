@@ -1,3 +1,7 @@
 input {
 	margin-right: 15px;
 }
+
+form {
+	background-color: gray;
+}

@@ -48,6 +48,7 @@
 						- Instalar heroku CLI
 							- https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 							- heroku --version
+							- miserver@notengo.com
 							- heroku login (Enter your Heroku credentials)
                             - git init
                             - git add .
@@ -55,4 +56,10 @@
                             - heroku create (You should see two links after running this command. Copy the second one)
                             - git remote add heroku PASTE THE LINK YOU JUST COPIED
                             - git push heroku master
+
+            -  https://www.youtube.com/watch?v=ZKxvBsGVKR8
+            	- Crear la aplicación
+            	- Crear Cuenta en github
+            	- https://buddy.works
+            	- https://www.netlify.com/
 
