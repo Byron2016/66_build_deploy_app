@@ -49,11 +49,11 @@ class App extends Component {
       <hr />
       <form className="form-inline">
         <div className="form-group">
-          <label>- Paragrahps:</label>
+          <label>Paragrahps:</label>
           <Text value={this.state.paras} onChange={this.changeParas.bind(this)} />
         </div>
         <div className="form-group">
-          <label>- Include HTML:</label>
+          <label>Include HTML:</label>
           <Select value={this.state.html} onChange={this.showHtml.bind(this)} />
         </div>
       </form>
