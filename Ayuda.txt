@@ -27,3 +27,32 @@
 			- https://baconipsum.com/json-api/
 				- https://baconipsum.com/api/?type=all-meat&paras=3&start-with-lorem=1&format=html
 
+		- A producción
+			- npm run build
+			- traversymedia.com
+			- https://developer.salesforce.com/platform/heroku
+				- https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f
+					- Step 1 — Sign up For Heroku
+					- Step 2 — Setup React App
+						- npm -v 
+						- node -v
+
+						- En package.json colocar:
+
+						"engines" : {
+							"npm": "6.14.4",
+							"node": "12.16.3"
+						},
+
+					Step 3 — Create Heroku Git Repository
+						- Instalar heroku CLI
+							- https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+							- heroku --version
+							- heroku login (Enter your Heroku credentials)
+                            - git init
+                            - git add .
+                            - git commit -m “initial commit”
+                            - heroku create (You should see two links after running this command. Copy the second one)
+                            - git remote add heroku PASTE THE LINK YOU JUST COPIED
+                            - git push heroku master
+
