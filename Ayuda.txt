@@ -10,14 +10,20 @@
 		
 	- PASOS
 		- npx create-react-app 66_build_deploy_app
-		- npm install formik --save
-		- npm install node-sass 
-			- Esto se hace x q se va a usar hoja de estilos en sass.
-		- Vaciar carpeta "src"
-		- Crear archivo "src/index.js"
-		- Crear archivo "src/style.scss"
-		
-		- Formik
-			- Es un manejador de estado de las formas
-			- Agrega funcionalidad para evitar repitir en todas las formas.
-			- Creación de forma.
+		- Configuracion
+			- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/readable/bootstrap.min.css">
+			- npm install axios --save
+
+		- axios
+			- NO usar componentWillMount(){}
+				- https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+				- If you don’t have the time to migrate or test these components, we recommend running a “codemod” script that renames them automatically:
+					- cd your_project
+					- npx react-codemod rename-unsafe-lifecycles
+
+
+		- HipsterJesus API
+			- https://rapidapi.com/blog/directory/hipsterjesus/
+			- https://baconipsum.com/json-api/
+				- https://baconipsum.com/api/?type=all-meat&paras=3&start-with-lorem=1&format=html
+
