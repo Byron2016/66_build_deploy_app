@@ -1,0 +1,23 @@
+    ***************************************************************
+    **                                                           **
+    **                  66_build_deploy_app                      **
+    **                                                           **
+    ***************************************************************
+- 66_build_deploy_app
+	- TITULO: Build & Deploy A React JS Text Generator App
+	- REFERENCIAS
+		- https://www.youtube.com/watch?v=yU5DYccb77A
+		
+	- PASOS
+		- npx create-react-app 66_build_deploy_app
+		- npm install formik --save
+		- npm install node-sass 
+			- Esto se hace x q se va a usar hoja de estilos en sass.
+		- Vaciar carpeta "src"
+		- Crear archivo "src/index.js"
+		- Crear archivo "src/style.scss"
+		
+		- Formik
+			- Es un manejador de estado de las formas
+			- Agrega funcionalidad para evitar repitir en todas las formas.
+			- Creación de forma.
